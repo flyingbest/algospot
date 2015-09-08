@@ -18,6 +18,7 @@ int main(int argc, char *argv[]){
 	for(int i=0; i<C; i++){
 		cin >> N;
 		for(int j=0; j<(2*N-1); j++){
+			for(int k=0; k
 			
 		}
 		
