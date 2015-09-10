@@ -1,8 +1,8 @@
 선형 자료 구조
 ==============
-### 참고 사이트
-- http://www.hanbit.co.kr/network/view.html?bi_id=1585
+##### 참고 사이트
 
+	-[한빛미디어] http://www.hanbit.co.kr/network/view.html?bi_id=1585
 
 배열의 큰 문제중 하나 : 처음에 선언한 배열의 크기 이상의 자료를 넣을 수 없다.
 
