@@ -5,7 +5,8 @@ using namespace std;
 void josephus(int n, int k){
 	// ready list
 	list<int> survivors;
-	for(int i=0; i<n; ++i){
+	// 여기서 for문 초기화를 0으로 하면 값이 달라져 정답과 다르다.
+	for(int i=1; i<=n; ++i){
 		survivors.push_back(i);
 	}
 
