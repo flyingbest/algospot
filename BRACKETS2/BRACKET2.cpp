@@ -37,7 +37,6 @@ bool wellMatched(const string& formula){
 int main(){
 	int C;
 	string cha;
-	bool result;
 
 	bool val1 = false;
 	bool val2 = true;
@@ -47,8 +46,7 @@ int main(){
 	cin >> C;
 	for(int i=0; i<C; i++){
 		cin >> cha;
-		result = wellMatched(cha);
-		if(result == 1)
+		if(wellMatched(cha) == 1)
 			cout << "YES" << endl;
 		else
 			cout << "NO" << endl;

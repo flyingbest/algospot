@@ -49,9 +49,9 @@ int main(){
 		cin >> cha;
 		result = wellMatched(cha);
 		if(result == 1)
-			cout << "YES";
+			cout << "YES" << endl;
 		else
-			cout << "NO";
+			cout << "NO" << endl;
 	}
 	return 0;
 }
